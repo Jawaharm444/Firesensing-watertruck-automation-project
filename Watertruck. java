@@ -1,0 +1,5 @@
+public class WaterTruck {
+    public void sprayWater() {
+        System.out.println("Spraying water to extinguish the fire.");
+    }
+}
