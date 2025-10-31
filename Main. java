@@ -1,0 +1,11 @@
+import java.util.*;
+
+public class FireSensingWaterTruck {
+    public static void main(String[] args) {
+        FireSensor fireSensor = new FireSensor();
+        WaterTruck waterTruck = new WaterTruck();
+
+        fireSensor.detectFire();
+        waterTruck.sprayWater();
+    }
+}
